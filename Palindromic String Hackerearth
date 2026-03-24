@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+	string main,rev;
+    cin >> main;
+	rev = string(main.rbegin(), main.rend());
+	if (main == rev) {
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+
+    return 0;
+
+}
