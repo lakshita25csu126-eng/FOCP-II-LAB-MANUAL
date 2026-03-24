@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int num,n;
+	char s[100] ;
+	cin >> num;
+	n=num*2;
+	cout<<n<<endl;
+	cin>>s;
+	cout<<s;
+
+	return 0;
+	
+}
